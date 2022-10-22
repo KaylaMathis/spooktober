@@ -1,0 +1,189 @@
+/* styles.css */
+
+html, body {
+    background-color: rgb(201, 105, 36);
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    display: flex; 
+    flex-direction: column;
+}
+
+/* Top of the Page */
+
+.header, .top {
+    color: white;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.top {
+    padding: 90px;
+    display: flex;
+}
+
+
+h1, p {
+    margin: 0px;
+}
+
+.opener {
+    font-size: 32px;
+    text-align: left;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.placeholderpic img {
+    width: 500px;
+    height: 350px;
+}
+
+.opener button {
+    background-color: blue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 200px;
+    font-weight: bold;
+    border: 1px solid white;
+    margin: 10px 0 10px 0;
+}
+
+/*Middle of the Page */
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0 10px 40px 0;
+}
+
+.block {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+p2 {
+    font-size: 14px; 
+} 
+
+.info {
+    font-size: 24px;
+} 
+
+.pictures img  {
+    width: 200px;
+    height: 200px;
+    gap: 52px;
+    padding: 10px;
+}
+
+/* Quote */
+
+.quote {
+    padding: 80px;
+    background-color: #E5E7EB;
+   /* font-size: 32px; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    font-size: 16px;
+    text-align: right;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+p3 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+/* Bottom of Page*/
+
+.bottom {
+    border: 1px solid red;
+    background-color: #fab739;
+    border: 15px;
+    padding: 50px;
+    margin: 80px;
+    width: 80%;
+    border-radius: 40px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3, p4 {
+    text-align: left;
+    display: flex;
+    flex-direction: column; 
+} 
+
+p4 {
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.sign-item button {
+    background-color: blue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 30px 20px 50px 10px;
+    width: 150px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Button */
+
+button:hover {
+    background-color: red;
+    color: black;
+}
